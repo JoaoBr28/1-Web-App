@@ -1,0 +1,19 @@
+
+    
+    create table cliente1
+(codigo numeric (10) not null ,
+nome varchar (10) not null,
+telefone varchar (30))
+
+INSERT into cliente1 (codigo,nome,telefone)
+values (1 , 'joao' , '(88) 9999 7777')
+
+
+commit
+
+
+SELECT * FROM cliente1
+delete from cliente1
+
+
+
